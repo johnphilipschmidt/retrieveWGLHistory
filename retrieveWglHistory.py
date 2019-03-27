@@ -22,6 +22,8 @@ def changeData(aDate):
     newString = newString.replace("##DAY##",day)
     return newString
 
+
+
 def monthsToStrings(argument):
     switcher = {
         "01": "January",
